@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f8;
+  color: #1b263b;
+}
+.txt {
+  font-size: 1.7rem;
+  text-align: center;
+}
+header {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin-right: 20px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.menu a:hover {
+  color: #4d96ff;
+}
+main.sobre {
+  padding: 40px 20px;
+  background-color: #e0e1dd;
+}
+main.sobre h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+main.sobre p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+main.sobre h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+main.sobre ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+main.sobre ul li {
+  margin-bottom: 10px;
+}
+main h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4d96ff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #3578e5;
+}
+
+footer {
+  background-color: #0d1b2a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+.formulario-matricula {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-matricula label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario-matricula input,
+.formulario-matricula select {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.formulario-matricula button {
+  background-color: #4d96ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.formulario-matricula button:hover {
+  background-color: #3578e5;
+}
+.planos {
+  padding: 40px 20px;
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+.planos h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #1b263b;
+}
+
+.cards-planos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.plano {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.plano h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #0d1b2a;
+}
+.plano .preco {
+  font-size: 1.3rem;
+  color: #4d96ff;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.plano ul {
+  text-align: left;
+  margin: 0 auto 20px auto;
+  padding-left: 20px;
+}
+.plano ul li {
+  margin-bottom: 10px;
+}
+.plano button {
+  background-color: #4d96ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.plano button:hover {
+  background-color: #3578e5;
+}
