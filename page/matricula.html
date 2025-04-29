@@ -25,11 +25,15 @@
     </header>
 
     <main class="sobre txt">
-      <h1>Formulário de Matrícula</h1>
-      <p>
-        Preencha os dados abaixo para se matricular na Veralux Escola Técnica e
-        dar o primeiro passo rumo ao seu futuro profissional.
-      </p>
+      <div class="textoDados">
+        <h1>Formulário de Matrícula</h1>
+        <h4 class="nomeDoPlano"></h4>
+
+        <p>
+          Preencha os dados abaixo para se matricular na Veralux Escola Técnica
+          e dar o primeiro passo rumo ao seu futuro profissional.
+        </p>
+      </div>
 
       <form class="formulario-matricula">
         <label for="nome">Nome completo:</label>
@@ -38,16 +42,16 @@
         <label for="nome">CPF:</label>
         <input type="text" id="cpf" name="cpf" min="9" max="11" required />
 
-        <label for="email">E-mail:</label>
+        <label class="email" for="email">E-mail:</label>
         <input type="email" id="email" name="email" required />
 
         <label for="telefone">Telefone:</label>
         <input type="tel" id="telefone" name="telefone" required />
 
-        <label for="nome">Data de nacimiento:</label>
+        <label class="Data" for="nome">Data de nacimiento:</label>
         <input type="date" id="nacimiento" name="nacimiento" required />
 
-        <label for="curso">Curso desejado:</label>
+        <label class="cursoTxt" for="curso">Curso desejado:</label>
         <select id="curso" name="curso" required>
           <option value="">Selecione</option>
           <option value="informatica">Informática</option>
@@ -64,4 +68,5 @@
       <p>Desenvolvido por [Rafael Lacerda]</p>
     </footer>
   </body>
+  <script src="/js/palnos.js"></script>
 </html>
